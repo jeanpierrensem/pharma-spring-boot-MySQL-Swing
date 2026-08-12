@@ -1,0 +1,287 @@
+﻿codeBar;name;Dosage;Form;Packaging;Famille;quantity;Seuil minimum;costPrice;sellPrice
+ACID_TRANE_500_INJ;Acide Tranexamique;500mg/5ml;Injection;B/5;MIJAMIJ;4 890;; 613,00; 809,16
+ACILOC_25//_SI_IV;Ranitidine;25mg/ml;Injection;B/5;MIJAMIJ; 0;; 641,20; 846,38
+ACUPAN_2///_SI_IV;Nefopam;20mg/2 ml;Injection;;MIJAMIJ;9 645;; 450,00; 559,36
+ADRENA_1///_SI_IV;Adrénaline;1 mg;;;MIJAMIJ;1 070;; 90,00; 382,80
+AIGEPI_UU23G//_//;Aiguille épicrânienne, Luer, UU. Aigui.:section 0.80 mm;23G;Matériel;;DIMADIM;8 100;; 22,50; 35,24
+AIGEPI_UU25G//_//;Aiguille épicrânienne, Luer, UU. Aigui.:section 0.50 mm;25G;Matériel;;DIMADIM;1 400;; 20,00; 33,79
+AIGPOL_UU19G//_//;Aiguille à Ponction Lombaire, Luer, Usage Unique 89mm * 3.5;19G;Matériel;;DIMADIM; 0;; 441,00; 581,12
+AIGPOL_UU22G//_//;Aiguille à Ponction Lombaire, Luer, Usage Unique 63mm * 2.5;22G;Matériel;;DIMSERIN; 0;; 441,00; 582,12
+AIGPOL_UU25G//_//;Aiguille à Ponction Lombaire N° 25;;Matériel;;DIMADIM; 50;; 400,00; 660,00
+ALBEND_400/_CP_OR;Albendazole Comp;400 mg;;;MSO;21 604;; 60,00; 100,00
+ALBEND_400/_SP_OR;Albendazole;200mg/5ml;Sirop;;MSOAMSO; 752;; 200,00; 330,00
+ALCOET_250L_SC_ID;Alcool ethylique fut;250L;Liquide;;MUEMUE; 0;; 920,00; 920,00
+ALCOET_70%/_CU_12;Alcool éthylique à 70 %;125 ml;Liquide;;MUEMUE; 225;; 370,00; 444,00
+ALCOET_95%/_CU_1/;Alcool éthylique à 95 %;1L;Liquide;;MUEMUE; 59;;1 940,40;1 940,40
+ALCOET_BI_30L;Alcool ethylique 95°;;Liquide;B/30L;MUEMUE; 33;;39 415,00;39 415,00
+ALUMHY_500/_CP_OR;Aluminium Hydroxyde;500 mg;Comprimé;;MSPAMSP;74 600;; 13,00; 17,16
+AMOCLAV_1125_SA_OR;Amoxicilline et clavulanate de potassium;1G/125mg;Sachet;;MSO;6 412;; 200,00; 264,00
+AMOCLAV_625_CP_OR;AMGMAX-625;"500mg; 125mg";;B/16;MSOAMSO;10 448;; 137,00; 198,00
+AMOCLA_1125_CP_OR;Amoxycilline + Acide Clavulanique;1000 mg + 125mg;Comprimé;;MSO;4 640;; 150,00; 387,99
+AMOCLA_1125_SA_OR;Amoxycilline+Acide Clavulanique DENK SCHET;1G/125mg;;B/8;MSO; 56;; 340,42; 387,99
+AMOCLA_1200_SI_IV;Amoxycilline+Acide Clavulanique 1000/;200mg;Injection;;MIJAMIJ;4 744;; 750,00;1 122,00
+AMOCLA_312/_SP_OR;AMOXYCILINE + ACIDE CLAVULANIQUE 250/ F/;"62.5mg; 60ml";;;MSOAMSO; 689;;1 000,00;1 320,00
+AMOXIC_500/_CP_OR;Amoxycilline , sous blister;500 mg;Comprimé;;MSO;28 280;; 22,00; 30,44
+AMOXIC_500/_GE_OR;Amoxycilline ,sous blister;500mg;Gélule;;MSO;613 100;; 22,00; 30,44
+AMOXYC_250/_SP_1I;Amoxycilline poudre pour;"250mg/5ml; 100 ml";Sirop;;MSPANBIOT;8 986;; 550,00; 759,00
+AMOXYC_250/_SP_60;Amoxycilline poudre pour;"250mg/5ml; 60 ml";Sirop;;MSPMSIRO;14 138;; 285,00; 561,00
+AMPICI_1000_AM_IV;Ampicilline 1 g;;Injectable;;MIJAMIJ;16 390;; 130,00; 171,60
+ANTITE_1500_AM_IM;Antitoxine Tétanique, humaine;"1500 UI /ml; 1ml";Injectable;;MIJAMIJ;4 930;;1 300,00;1 716,00
+ARTAMO_3703_CP_OR;Artésunate + Amodiaquine 100/ , 3;270 mg;Comprimé;;MSO; 0;; 88,00; 116,16
+ARTAMO_3706_CP_OR;Artésunate + Amodiaquine 100/ , 6;270 mg;Comprimé;;MSO; 0;; 137,00; 180,84
+ARTEME_80//_AM_IV;Artemether , , ampoule;80 mg;Injection;;MIJAMIJ;36 500;; 80,00; 136,40
+ARTESU_120//_AM_IV;Artésunate Ampoule;120 mg;Injection;;MIJAMIJ;5 399;; 450,00; 650,00
+ARTESU_60//_AM-IV;Artésunate;60mg;Injection;;MIJAMIJ;33 292;; 47,08; 50,00
+ARTESU_60T/_AM_IV;Artésunate;60mg;Injection;;MIJAMIJ;18 304;; 325,00; 450,00
+ARTLUM_1260_SP_OR;Artemether + Luméfantrine 180/;"1080 mg; 60 ml";Sirop;;MSPMSIRO; 221;; 600,00;1 000,00
+ARTLUM_1403_CP_OR;Artemether + Luméfantrine 20/;120 mg;Comprimé;;MSO;22 890;; 105,00; 125,00
+ARTLUM_1424_CP_OR;Artemether + Luméfantrine 20/ (6 x 4) Cp CENA;120 mg;;;MSO;15 623;; 105,00; 160,00
+ARTLUM_560/_CP_OR;Artemether + Luméfantrine 80/ 6 CP;480 mg;;;MSO;5 609;; 450,00; 594,00
+ASCABIOL_LIQ_125ML;ASCABIOL LIQ US EXT 125ML;;;;MUEMUE; 4;;2 317,50;3 198,15
+ATROSU_0.6//_AM_IV;Atropine;0.6mg/ml;Injection;;MIJAMIJ; 347;; 160,00; 160,00
+ATROSU_1///_AM_IV;Atropine Sulfate , ampoule;"1mg/ml; 1 ml";;;MIJAMIJ;9 681;; 120,00; 200,00
+AZITHR_40//_SP_OR;Azithromycine Sp;200mg/5ml;;;MSPMSIRO; 321;; 750,00;1 342,44
+AZITHR_500/_CP_OR;Azithromycine;500mg;Comprimé;;MSO;4 850;; 200,00; 465,00
+BANCRE_10X4///_CU;Bande de crêpe 10 cm X 4 m;;;;DIMPANS; 769;; 190,00; 660,00
+BANCRE_15X4///_CU;Bande de crêpe 4 m x 15 cm;;;;DIMADIM; 0;; 250,00; 330,00
+BANCRE_7X4-5//_CU;BANDE CREPE 4m X 7.5 cm;;;;DIMADIM;10 933;; 137,00; 211,20
+BANGRO_///////_//;Bandellette Test de Grossesse;;;;MLAMLA; 442;; 40,00; 46,00
+BETHAM_0.1%_CR_CU;Béthaméthazone dermique 0.1% 15 g, tube;;Cutanée;;MUEMUE; 0;; 306,80; 404,98
+BONCOM_CR/////_//;Bon de Commande compte rendu;;;;OGEOGE; 648;;2 450,00;3 125,00
+BUPIVA_0.5%_SI_IV;Bupivacaïne 0,5%;20ml;Injection;;MIJAMIJ; 577;;2 300,00;3 036,00
+CALCGL_10%/_AM_IV;Calcium Gluconate 10% 1 g / , ampoule;10 ml;;;MIJAMIJ;35 440;; 90,00; 132,00
+CARBAM_200/_CP_OR;Carbamazépine;200 mg;Comprimé;;MSPAMSP;4 990;; 27,00; 35,64
+CARBOC_20//_SP_OR;Carbocystéïne 2g/;100 ml;Sirop;;MSOAMSO;3 228;; 435,00; 547,40
+CARBOC_5%//_SP_OR;Carbocystéine 5%;100ml;Sirop;;MSOAMSO;4 367;; 535,00; 792,00
+CARNET_PATIENT_//;Carnet de Reçu des Médicaments;;;;OGEOGE;1 516;;2 400,00;2 600,00
+CARNET_RVJ////_//;Carnet de Recette et des Ventes Journalières(A3)/Livre journal;;;;OGEOGE; 223;;7 000,00;8 400,00
+CATHET_TCUU18G_//;Catheter I.V. Type Court, Luer, UU, section 1.30 mm;18G;;;DIMADIM;11 429;; 85,00; 132,00
+CATHET_TCUU20G_//;Catheter I.V. Type Court, Luer, UU, section 1.10 mm;20G;;;DIMADIM;10 275;; 60,00; 207,24
+CATHET_TCUU22G_//;Catheter I.V. Type Court, Luer, UU, section 0.80 mm;22G;;;DIMADIM;35 127;; 60,00; 207,24
+CATHET_TCUU24G_//;Catheter I.V. Type Court, Luer, UU, section 0.70 mm;24G;;;DIMADIM;40 400;; 60,00; 227,17
+CEFIXI_200////_SP;Cefixime buvable;100mg/5ml;Suspension;;MSPMSIRO;1 152;; 750,00;1 320,00
+CEFIXI_200/_CP_OR;CEFIXIME cp;200 mg;;;MSO;35 760;; 75,00; 112,20
+CEFOTA_1000_SI_IV;Cefotaxime;1000mg;Injection;;MIJAMIJ; 943;; 500,00; 660,00
+CEFOTA_1G_SI_IV;Cefotaxime (TAXEFIM) /5ML AMP;1G;;;MIJAMIJ; 0;;3 038,00;3 493,70
+CEFTDI_1000_AM_IV;Ceftriaxone Disodique, 1 g, ampoule;;;;MIJAMIJ;60 152;; 225,00; 305,20
+CEFURO_750/_SI_IV;Cefuroxime;750mg;Injection;;MIJAMIJ; 0;;1 505,00;2 329,90
+CETAFO_1000_SI_IV;Ceftriaxone;1G;Injection;;MIJAMIJ; 0;;2 290,00;2 633,50
+CHLORP_4///_CP_OR;Chlorpheniramine Maléate , sous blister;4 mg;Comprimé;;MSO;324 800;; 4,00; 5,61
+CIMETIDINE_200MG;CIMETIDINE 200MG TAB;;;B/100;MSO;169 430;; 13,00; 17,16
+CIMETI_INJ_20MG;CIMETIDINE 200MG/2ML;;Injection;;MIJAMIJ;37 000;; 60,00; 79,20
+CIPROF_2///_SI_IV;Ciprofloxacine;200mg;Injection;;MIJAMIJ;2 722;; 300,00; 402,50
+CIPROF_500/_CP_OR;Ciprofloxacine;500 mg;Comprimé;;MSO;66 620;; 30,00; 39,60
+CLAOMB_///////_//;Clamb ombilical;;;;DIMADIM;11 994;; 35,00; 100,00
+CLAVICI_1G_200_INJ;CLAVICIN /200MG;1G;Injection;B/1;MIJAMIJ;1 400;;1 195,39;1 577,91
+CLOXAC_500/_GE_OR;Cloxacilline;500mg;Gélule;;MSO;90 460;; 32,00; 48,84
+CLOXAC_500/_SI_IV;Cloxacilline;500 mg;Injectable;;MIJAMIJ;4 086;; 150,00; 198,00
+CONMAS_////_//_//;Condom;;;;PCFPCF; 144;; 1,50; 3,63
+COTOHY_50/////_CU;Coton hydrophile 50 g;;;;DIMADIM;2 847;; 230,00; 264,00
+COTOHY_500////_CU;Coton Hydrophile, Rouleau, Non Stérile, 500 g, pièce;;;;DIMADIM; 665;;1 400,00;1 650,00
+COTRIM_240/_SP_OR;Sulfamethoxazole + Trimethopim (Cotrimoxazole) ( )/ Susp;"200mg+40mg; 5ml";;;MSOAMSO;5 184;; 400,00; 528,00
+COTRIM_480/_CP_OR;Sulfamethoxazole + Trimethoprim;400mg + 80mg;Comprimé;;MSO;255 820;; 8,50; 15,84
+CO_ARINAT_CP;Co Arinate AD B/3CP;;;;MIJANPALU; 0;;1 709,00;1 965,35
+CYTEAL_250////_SC;CYTEAL F/;250 ml;;;MUEMUE; 100;;2 330,00;2 679,50
+CYTEAL_500///_SC;CYTEAL SOL EXT FL/500ML;;;;MUEMUE; 0;;4 302,00;4 947,30
+DEPOPR_150/_AM_IM;Depo-Provera ampoule ., unité;150 mg/ml;Injection;;PCFPCF; 0;; 55,00; 72,60
+DERMOB_////_SC_CU;Dermobacter, mous. pour application locale, fl de;300 ml;Solution;;MUEMUE; 0;;1 030,91;1 756,00
+DERMOS_////_SC_CU;Dermosol , dermique pour application local,fl;300 ml;Solution;;MUEMUE; 401;;1 200,00;1 756,00
+DERMOS_SC_CU_100ML;Dermosol , dermique pour application local,fl;100 ml;Solution;;MUEMUE;6 425;; 400,00; 528,00
+DEXAME_0.5/_CP_OR;Dexaméthasone;0,5mg;Comprimé;;MSPAMSP;402 740;; 6,00; 7,92
+DEXAPH_4///_AM_IV;Dexamethasone phosphate sodique , ampoule;"4 mg/ml; 1 ml";;;MIJAMIJ;29 580;; 45,00; 81,44
+DIAZEP_5///_SI_IV;Diazepam , , ampoule;"5 mg/ml; 10 mg / 2 ml";;;MIJAMIJ;11 624;; 250,00; 425,00
+DICLSO_25//_SI_IV;Diclofénac Sodique , , Ampoule;"25mg/ml; 75 mg/3ml";;;MIJAMIJ;33 150;; 45,00; 39,40
+DICLSO_50//_CP_OR;Diclofénac Sodique , sous blister;50 mg;Comprimé;;MSO;206 000;; 4,00; 5,94
+DICYNO_125/_SI_IV;Dicynone AMP;250mg/2ml;;B/4;MIJAMIJ; 248;; 469,25; 619,41
+DIU///_////_IP_VA;Dispositif Intra-Uterin (DIU), unité;;;;PCFPCF; 592;; 20,00; 25,00
+DOXYCH_100/_GL_OR;Doxycycline chlorhydrate gelule sous;100 mg;;;MSO;53 980;; 14,00; 19,20
+ECOSTE_///////_//;Ecouvillon Stérile;;;;MLAMLA; 379;; 50,00; 132,00
+EMBALLAGE_;EMBALLAGE;;;;MUEMUE; 0;; 0,00; 500,00
+ENOXAP_4JU/_AI_IV;Enoxaparine 4 /;"000UI; 0,4ml";Injection;;MIJAMIJ;1 500;;2 150,00;2 772,80
+ENOXAP_6JU/_AI_IV;Enoxaparine 6 /;"000UI; 0,6ml";Injection;;MIJAMIJ; 680;;2 700,00;3 565,32
+EPHEDRI_30//_AI_IV;Ephedrine Aguettant;30 mg/ml;;;MIJAMIJ; 0;; 0,00;2 442,00
+EPINEP_1///_AI_IV;Epinéphrine;1mg/ml;;;MIJAMIJ; 0;; 100,00; 132,00
+EPPI//_10//_SI_IV;Eau pour préparation (EPPI) ou flapule;10ml;Injection;;MIJAMIJ;18 795;; 33,50; 44,22
+ERYTHR_50//_SP_OR;Erythromycine;"250mg/5ml; 100ml";Sirop;;MSOANBIOT; 5;; 650,00; 792,00
+ERYTHR_500/_CP_OR;Erythromycine;500mg;Comprimé;;MSO;44 300;; 39,00; 49,42
+ETILOG_////////_//;Etiquettes avec logo + Emballage 30 * 40 61 Microns;;;;EQMEQM; 0;; 62,00; 150,00
+FENTAN_50B/_SI_IV;Fentanyl , , ampoule;"50 µg; 100µg / 2 ml";;;MIJAMIJ;2 305;;1 500,00;2 400,00
+FERFOL_200/_SP_OR;Fer Acide Folique Vit B12;200ml;;;MSPMSIRO;1 622;; 775,00; 990,00
+FERFOL_66.2_CP_OR;Ferreux Sel + Folique Acide;"66 mg; 0.25 mg";Comprimé;;MSO;786 300;; 6,00; 8,50
+FICINV_///////_//;Fiche d'Inventaire;;;;OGEOGE; 0;; 50,00; 75,00
+FICSTO_///////_//;Fiche de Stock;;;;OGEOGE;25 590;; 70,00; 75,00
+FILSR/_1T/////_//;Fil SR, vicryl, n° 1 , Aiguille Triangulaire;;Matériel;;DIMFILSUT; 54;; 950,00;1 320,00
+FILSR/_1VICR//_//;Fil SR, vicryl, n° 1 , Aiguille Ronde;;Matériel;;DIMFILSUT; 125;;1 000,00;1 320,00
+FILSR/_2-0R///_//;Fil SR, Ac polygly, N°2/0, Serti, Aiguille Ronde;;Matériel;;MUEMUE; 657;; 950,00;1 861,20
+FILSR/_2R/////_//;Fil SR, Ac polygly, N°2, Serti, Aiguille Ronde;;Matériel;;MUEMUE; 84;; 950,00;1 861,20
+FILSR/_2RP////_//;FILS SR , POLYAM N°2 , AIGUILLE RONDE;;Matériel;;MUEMUE; 0;; 985,00;1 861,20
+FINORE_0SOIE//_//;Fil de suture non résorbable n°0(Soie/nylon) AR;;;;MUEMUE; 48;; 150,00; 198,00
+FINORE_1SOIE//_//;Fil de suture non résorbable n°1(Soie/nylon) Aiguille Triangulaire;;Matériel;;MUEMUE; 0;; 150,00; 198,00
+FINORE_2-0SOIE_//;Fil de suture non résorbable n°2/0(Soie) Aiguille Triangulaire;;Matériel;;MUEMUE;2 256;; 150,00; 264,00
+FINORE_2SOIE//_//;Fil de suture non résorbable n°2(Soie/nylon) AR;;;;MUEMUE; 0;; 150,00; 198,00
+FINORE_3-0SOIE_//;Fil de suture non résorbable n°3/0(Soie/nylon) Aiguille Triangulaire;;Matériel;;MUEMUE; 11;; 150,00; 198,00
+FLAPLA_125M_//_//;Flacon Plastique + Bouchons blancs;125 ml;;;MLAMLA;8 000;; 158,70; 255,01
+FLAPLA_1L//_//_//;Flacon Plastique 1 litre + Bouchon blanc;;;;MLAMLA;4 829;; 238,53; 401,39
+FLAPLA_500CC//_//;Flacon en Plastique;500ml;;;MLAMLA; 0;; 195,00; 257,40
+FLAPLA_500CCPU_//;Flacon en Plastique TR+ Bouchons blanc pulvérisateur;500ml;;;MLAMLA;1 353;; 465,00; 613,80
+FLUCON_100/_SP_OR;Fluconazole f/;"50 mg/5 ml; 60 ml";Sirop;;MSPMSIRO;3 095;; 750,00;1 056,00
+FLUCON_200/_GE_OR;Fluconazole;200 mg;Gélule;;MSO;13 680;; 80,00; 112,30
+FUROSE_10//_AM_IV;Furosémide , ampoule;20 mg/ 2 ml;;;MIJAMIJ;4 680;; 80,00; 72,60
+FUROSE_40//_CP_OR;Furosemide , sous blister;40 mg;Comprimé;;MSO;52 490;; 9,00; 11,88
+GANCHI_7.5UU//_CU;Gants Chirurgicaux, Stériles, Usage Unique, taille 7.5, paire;;;;DIMADIM;9 425;; 145,00; 235,00
+GANCHI_8UU////_CU;Gants Chirurgicaux, Stériles, Usage Unique, taille 8, paire;;;;DIMADIM;10 189;; 175,00; 215,00
+GANEXA_7-8UU//_CU;Gants d'Examen, Non Stérile, Usage Unique Taille Medium;;;;DIMADIM;262 200;; 28,00; 39,60
+GANEXA_7-8UUL/_//;Gants d'Examen, Non Stérile, Usage Unique Taille Medium (7-8) Léger;;;;DIMADIM;15 900;; 25,00; 33,00
+GANEXA_8-9UU//_CU;Gants d'Examen, Non Stérile, Usage Unique, Taille Large;;;;MUEMUE;161 600;; 30,00; 50,00
+GAZHYD_10X10//_CU;Gaze Hydrophile, Compresse, Stérile, 10 x 10 cm, 4 plis (40 x 40 dépl;;;;DIMADIM;304 230;; 39,00; 59,40
+GAZHYD_65X100/_CU;Gaze Hydrophile, Rouleau, Non Stérile, 65 cm x 100 m;;;;DIMPANS; 60;;8 230,00;12 650,00
+GELHYD_125////_//;Gel hydro-alcoolique;125ml;;;MUEMUE; 0;; 801,08;1 500,00
+GELILI_5L/////_SC;Gélifiant;;Liquide externe;;MLAMLA; 1;;19 500,00;25 740,00
+GELIPO_1//////_SC;Gélifiant poudre;;;;MLAMLA; 1;;65 000,00;85 800,00
+GENTAM_10//_CO_OC;Gentamycine Collyre, , , Flacon Collyre;"10 mg/ml; 10ml";;;MUEMUE;3 140;; 225,00; 375,00
+GENTSU_40//_SI_IV;Gentamicine Sulfate , Ampoule;"40mg/ml; 80mg/2ml";;;MIJAMIJ;64 901;; 45,00; 85,80
+GLUCOS_10%5_SF_IV;Glucose 10%/;500ml;Solution;;MIJPERFUS;9 120;; 450,00; 575,00
+GLUCOS_5%25_SF_IV;Glucose 5%/;250ml;Solution;;MIJPERFUS; 427;; 390,00; 524,00
+GLUCOS_5%50_SF_IV;Glucose 5%/;500ml;Solution;;MIJPERFUS;19 418;; 400,00; 550,00
+GLYCEM_200L///_//;Glycerine 200 Litres;;;;MLAMLA; 0;;1 600,00;1 600,00
+GLYCER_125////_//;Glycérine F/;125ml;;;MLAMLA; 38;; 328,07; 433,05
+GLYCER_500////_//;Glycérine F/;500ml;;;MUEMUE; 61;;1 010,00;1 333,20
+GOWNS_STE_DISP;Gowns, sterile Disposable;;;;DIMGANTS; 0;; 0,00;3 960,00
+GRISEO_500._CP_OR;Griséofulvine Cp;500 mg;;;MSO;14 890;; 45,00; 60,39
+IBUPAR_225/_SP_OR;IBUPROFENE + PARACETAMOL , F/60;"100mg; 125mg";;;MSPMSIRO;1 505;; 400,00; 528,00
+IBUPRO_400/_CP_OR;Ibuprofène , sous blister;400 mg;Comprimé;;MSO;126 050;; 9,25; 12,21
+IMPSTE_68//_IP_SC;Etonogestrel;68 mg;;;PCFPCF; 587;; 500,00; 650,00
+INSACT_100U_AM_IM;Insuline ACTRAPID HM , flacon de;"100 UI / ml; 10 ml";;;MIJAMIJ; 86;;5 016,00;5 725,85
+INSMIX_100U_AM_10;Insuline MIXTARD 30/70 HM , flacon de;"100 UI / ml; 10 ml";;;MIJAMIJ; 180;;4 969,00;5 714,35
+INSULA_100U_AM_10;Insuline INSULATARD HM , flacon de;"100 UI / ml; 10 ml";;;MIJAMIJ; 11;;4 940,00;5 776,45
+JADELL_150/_IP_SC;Jadelle 2 x , kit de 2;75 mg;;;PCFPCF; 442;; 500,00; 650,00
+KETAMI_50//_AM_IV;Kétamine;"50 mg/ml; 500 mg /10 ml";Injectable;;MIJAMIJ;2 527;;1 500,00;1 900,00
+KETESS_25//_SI_IV;KETESSE AMP;50mg/2ml;;B/5;MIJAMIJ; 50;; 590,60; 779,59
+KETOPR_50//_SI_IV;Ketoprofene;50 mg;Injection;;MIJAMIJ; 0;; 590,20; 621,80
+KITACC_///////_//;Kit Accouchement;;;;KITKITM; 695;;1 790,24;3 800,00
+KITCES_///////_//;Kit Cesarienne;;;;KITKITM; 106;;25 892,01;29 000,00
+KITPALU_ADULTE/_//;kit Paludisme grave Adulte;;;;KITKIT; 0;;4 186,00;4 186,00
+KITPAL_05ANS//_//;kit Paludisme grave : Enfant 0-5 ans;;;;KITKIT; 0;;2 910,00;2 910,00
+LAMBIS_UU23///_//;Lame de Bistouri, Stérile, Usage Unique n°4 n°23;;;;MUEMUE;37 300;; 30,00; 39,60
+LERIN_0.2MG_ML_INJ;LERIN 0.2MG A;;Injection;B/5;MIJAMIJ; 350;; 355,20; 468,86
+LEVONO_1.5/_CP_OR;Levonorgestrel;1,5mg;Comprimé;;PCFPCF; 11;; 45,00; 59,40
+LIDADR_2%50_SI_IV;Lidocaïne + Adrénaline 2%/;50ml;Injection;;MIJANEST; 94;; 500,00; 660,00
+LIDOCA_2%//_SI_50;Lidocaïne 2%, 1 g /;50 ml;Injectable;;MIJAMIJ; 509;; 950,00;1 150,00
+LOXEN/_1///_SI_IV;LOXEN;10mg/10ml;Injection;B/5;MIJAMIJ; 350;;1 230,40;1 624,12
+MAGNSU_0.15_SI_IV;Sulfate de magnésium 1,5 g/;10ml;Injection;;MIJAMIJ; 390;; 150,00; 204,00
+MAGNSU_50%/_AM_IV;Magnésium Sulfate, 50%, , , ampoule;50mg/10ml;;;PCFPCF; 0;; 525,80; 694,06
+MALPAN_////_TE_PA;Malaria Ag Pf/Plan PA;;;;MUEMUE;18 955;; 122,00; 150,00
+MANNIT_10%/_SF_IV;Mannitol 10% , Perf.;500 ml;;;MIJPERFUS; 550;;1 400,00;1 848,00
+MANNIT_20%/_SF_IV;Mannitol 20%;250 ml;;;MIJPERFUS; 0;; 900,00;1 584,00
+MASFAC_///////_//;Surgical Mask;;;;MUEMUE; 0;; 180,00; 70,00
+MEBEND_100/_CP_OR;Mébendazole ,sous blister;100 mg;Comprimé;;MSO; 0;; 2,80; 7,92
+MEBEND_48//_SP_OR;Mébendazole , F/;"100 mg/5ml; 30ml";Sirop;;MSPMSIRO; 121;; 200,00; 264,00
+MED_SCRUBS;Theater Scrubs;;;;EQMEQM; 0;;20 000,00;26 400,00
+METAMI_500/_SI_IV;Métamizole ,ampoule;500mg/5ml;;;MIJAMIJ;30 955;; 60,00; 138,60
+METFOR_500/_CP_OR;Métformine;500mg;Comprimé;;MSO;107 190;; 8,00; 10,56
+METOCH_5///_AM_IV;Métoclopramide10 mg/ , ampoule;2ml;;;MIJAMIJ;9 460;; 60,00; 79,20
+METRBE_25//_SP_OR;Métronidazole Benzoate , , Flacon de;"125 mg / 5 ml; 100 ml";Sirop;;MSOAMSO;3 270;; 325,00; 438,24
+METRON_250/_CP_OR;Métronidazole , sous blister;250 mg;Comprimé;;MSO;337 000;; 5,00; 6,50
+METRON_5///_AM_IV;Métronidazole , flacon;"5 mg/ml; 500 mg/100 ml";;;MIJPERFUS;37 336;; 325,00; 462,00
+METRON_500/_CP_OR;Métronidazole;500 mg;Comprimé;;MSPAMSP;186 900;; 9,00; 11,88
+MICONA_2%//_CR_30;Miconazole Nitrate 2% 30 g, tube;;Cutanée;;MUEMUE; 639;; 300,00; 528,00
+MICROG_////_CP_OR;Levonorgestrel (MicrogynonEDFE Boite de 3 cycles) compromés;0.15mg;;;PCFPCF;1 320;; 45,00; 59,40
+MISOPR_200/_CP_OR;Misoprostol 200 ug bl;;Comprimé;;PCFPCF;6 724;; 236,00; 311,52
+MORPCH_10//_AM_IV;Morphine Chlorydrate (1%) , ampoule;"10mg/ml; 1 ml";;;MIJAMIJ;1 080;;1 800,00;2 400,00
+MSMI//_///////_//;Manuel de Santé Maternelle et Infantile;;;;OGEOGE; 4;; 800,00; 650,00
+NEOBAC_0.5%_PM_CU;Néomycine Sulfate 0.5% , Tube15g;;;;MUEMUE; 0;; 292,10; 385,57
+NIFEDI_10//_CP_OR;Nifédipine , sous blister;10 mg;Comprimé;;MSO; 0;; 5,70; 7,52
+NYSTAT_1LU/_CP_VA;Nystatine 100 Vaginal;000UI;Comprimé;;MUEMUE; 0;; 10,97; 14,48
+NYSTAT_1LU/_SP_30;Nystatine 100 / , Buvable;"000 UI; 5ml; 30 ml";Suspension;;MSOAMSO; 0;; 341,00; 450,12
+NYSTAT_1MU/_SP_10;Nystatine 100 / , Buvable;"000 UI; 5ml; 100 ml";Suspension;;MSOAMSO;3 332;; 490,00; 660,00
+NYSTAT_5LU/_CP_OR;Nystatine 500 , sous blister;000 UI;Comprimé;;MSO;42 500;; 40,00; 52,80
+OCYTCO_10UI/2ML_AM;Ocytocine / Ampoule;"10 UI; 2ml";;;PCFPCF;23 099;; 80,00; 108,80
+OCYTOC_10U/_AM_IM;Ocytocine , , ampoule;"10 UI/ml; 1 ml";;;PCFPCF; 0;; 84,92; 112,79
+OFLOXA_200/_SI_IV;Ofloxacine(OFLOMAC) FL /100ML;200mg;Injection;;MIJANBIOTI; 0;;3 150,00;3 622,50
+OMEPRA_20//_CP_OR;Oméprazole Gelule;20mg;;;MSO;242 750;; 15,00; 26,40
+OMEPRA_40//_SI_IV;Oméprazole /perfusion;40mg;Injection;;MIJAMIJ;3 961;; 480,00; 660,00
+OXACIL_1000_SI_IV;Oxaciline;1000mg;Injection;;MIJAMIJ; 0;;1 000,00;1 000,00
+PARACE_10//_SF_IV;Paracétamol;10mg/ml;Injection;;MIJPERFUS;1 624;; 600,00; 792,00
+PARACE_24//_SP_1I;Paracétamol , Buvable;125mg/5ml;Suspension;;MSPMSIRO;5 269;; 330,00; 435,60
+PARACE_300/_AM_IV;Paracetamol Sol.;300mg/2ml;Injection;;MIJAMIJ;55 252;; 70,00; 150,00
+PARACE_500/_CP_OR;Paracetamol , sous blister;500 mg;Comprimé;;MSO;1053 100;; 4,00; 4,62
+PENIFL_30/////_//;PENIFLOW 30;;;;DIMADIM; 0;; 500,00; 575,00
+PENIG/_5MU/_AM_IV;Benzylpénicilline Sodique 5 Méga UI;;Injectable;;MIJAMIJ;1 312;; 240,00; 371,45
+PENIGB_2.4M_SI_IM;Benzathine Benzyl Pénicilline 2,4 MUI;;Injection;;MIJAMIJ;7 768;; 200,00; 264,00
+PEREPI_23G////_//;PERFUSEUR+EPICRANIEN N°;23 G;;;MUEMUE; 0;; 120,07; 186,12
+PERFUS_////_SF_IV;Perfuseur Set, Set;;;;MUEMUE;23 857;; 90,00; 132,00
+PHENOB_100/_AM_IV;Phénobarbital Sodique , , ampoule;"100 mg/ml; 200 mg / 2ml";;;MIJAMIJ;2 378;; 450,00; 600,00
+PHENOB_100/_CP_OR;Phénobarbital , sous blister;100 mg;Comprimé;;MSO;17 600;; 35,00; 46,20
+PHLORO_10//_SI_IV;Phloroglucinol , , ampoule;"10mg/ml; 40 mg/4ml";;;MIJAMIJ;20 970;; 250,00; 382,00
+PHLORO_80//_CP_OR;Phloroglucinol , sous blister;80 mg;Comprimé;;MSO;20 160;; 36,67; 52,80
+PHYTOM_10//_SI_IV;Phytoménadione (Vitamine K1) , ampoule;"10 mg/ml; 1ml";;;MIJAMIJ;12 285;; 120,00; 165,00
+PLASMA_30//_SF_IV;Plasma Substitut (Gélatine Modifiée) au moins 30g/litre;500 ml;;;MIJPERFUS; 323;;3 000,00;3 500,00
+POCSAN_450////_//;Poche à Sang, Souple, CPDA, poche;450 ml;;;MLAMLA;1 500;; 900,00;1 250,00
+POCURI_VVNS2L/_//;Poche à Urine, avec Valve de Vidange, Non Stérile, 2 litres;;;;MUEMUE;2 480;; 215,00; 330,00
+POLYVI_10%1_SC_CU;Polyvidone iodée 10% , flacon doseur;125 ml;;;MUEMUE;1 119;; 850,00;1 200,00
+POLYVI_4%//_SC_CU;Polyvidone iodée 4 % SCRUB rouge Fl/;125ml;;;MUEMUE; 1;;1 024,53;1 248,90
+POTACH_10%/_AM_IV;Potassium Chlorure 10% 1 g (13 méq) /;10 ml;;;MIJAMIJ;4 330;; 150,00; 237,54
+PVRMED_A4/////_//;Procès Verbal de reception des médicaments A4;;;;OGEOGE; 129;;1 500,00;2 500,00
+QUINDI_300/_AM_IV;Quinine Dichlorhydrate , ampoule;"300 mg/ml; 600 mg / 2 ml";;;MIJAMIJ;18 380;; 150,00; 223,28
+QUININ_300/_CP_OR;Quinine;300mg;Comprimé;;MSO;20 200;; 38,00; 44,00
+RAMETR_RMT////_//;Rapport Mensuel de Trésorerie;;;;OGEOGE; 0;;2 953,75;3 000,00
+RANITI_25//_SI_IV;Ranitidine;"25mg/ml; 50 mg/2ml";Injection;;MIJAMIJ;8 530;; 140,00; 168,00
+RECOJO_A3/////_//;Registre de Consommation Jornalière;;;;OGEOGE; 142;;7 000,00;8 000,00
+RINGER_500-_SF_IV;Ringer Lactate ,Perf.;500 ml;;;MIJPERFUS;1 104;; 450,00; 595,00
+ROUEMB_10X30//_//;Rouleau d'Emballage Médicament 10kg x 33cm 45g;;;;MUEMUE; 63;;28 500,00;28 500,00
+SACEMB_30X45//_//;d'emballage 30 x 45 cm 61 Microns;;Sachet;;MUEMUE;11 970;; 38,00; 132,00
+SACKRA_20X40//_//;"Kraft Emballage Biodegradable""20x40""";;Sachet;;MUEMUE;11 271;; 28,00; 33,00
+SACKRA_35X45///_//;d'emballage 35 x 45 cm 61 Microns;;Sachet;;MUEMUE;10 750;; 41,00; 50,16
+SACKRA_38.5X60/_//;d'emballage 38.5 x 60 cm 61 Microns;;Sachet;;MUEMUE;6 358;; 55,00; 72,60
+SACMIN_///////_//;minigrip;;Sachet;;MUEMUE;113 000;; 3,20; 4,22
+SALBAE_200/_CL_OR;Salbutamol Aérosol, 200 Doses;;;;MUEMUE; 0;;1 375,00;1 815,00
+SAPLEM_40X60//_//;plastique d'emballage avec logos;;Sachet;;MUEMUE; 0;; 182,18; 240,48
+SAYPRE_////_//_//;SAYANA PRESS;;;;PCFPCF; 9;; 55,00; 72,60
+SERING_UU10CC/_//;Seringue, 3 pièces, Luer, Usage Unique, 10cc;;;;MUEMUE;136 080;; 27,00; 46,20
+SERING_UU20CC/_//;Seringue, 3 pièces, Luer, Usage Unique, 20cc;;;;DIMSERIN; 76;; 64,00; 140,00
+SERING_UU5CC//_//;Seringue, 3 pièces, Luer, Usage Unique, 5cc;;;;MUEMUE;28 700;; 20,00; 37,15
+SERING_UU60CC/_//;Seringue petit embout;60 ml;;;DIMADIM; 50;; 330,00; 396,00
+SERINS_100UI//_//;Seringue pour Insuline, 3 pièces, Luer, UU, 1cc;;;;DIMSERIN;1 399;; 55,00; 79,20
+SERVEI_////_AM_IM;Sérum Antivenimeux Polyvalent EBND;;;;MIJAMIJ; 117;;35 000,00;42 000,00
+SOAP_UNPERFUMED;Soap Unperfumed;;;;MUEAIS; 0;; 325,00; 425,00
+SODGLU_5.9%_SF_IV;Glucose 5% + Sodium Chlorure 0.9% , Perf.;500ml;;;MIJPERFUS;2 461;; 450,00; 524,00
+SODICH_0.9%_SF_IV;Sodium Chlorure 0.9% ,Perf.;500 ml;;;MIJPERFUS;12 934;; 400,00; 590,24
+SODICH_10%/_AM_IV;Sodium Chlorure 10%;10 ml;Injection;;MIJAMIJ;6 119;; 140,00; 198,00
+SODROL_////_SI_IV;Prednisolone;40 mg;Injection;;MIJAMIJ; 0;;1 051,00;1 208,65
+SOLHYD_1000///_//;hydroalcoolique de 1 litre;;Solution;;MUEMUE; 40;;1 600,94;2 150,00
+SOLHYD_125////_//;hydroalcoolique de;125 ml;Solution;;MUEMUE; 55;; 332,70; 485,00
+SOLHYD_500////_//;hydroalcoolique de;500 ml;Solution;;MUEMUE; 608;;1 005,00;1 333,20
+SONGAS_ECCH16/_//;Sonde Gastrique, Embout Conique, Stérile, Usage Unique CH 16;;;;MUEMUE; 129;; 250,00; 550,00
+SONGAS_ECCH16G_//;Sonde Gastrique, Embout Conique, Stérile,Usage Unique CH 16,Gros Embo;;;;MUEMUE; 0;; 350,00; 462,00
+SONGAS_ECCH18/_//;Sonde Gastrique, Embout Conique, Stérile, Usage Unique CH 18;;;;MUEMUE; 87;; 250,00; 330,00
+SONGAS_ECCH18G_//;Sonde Gastrique, Embout Conique, Stérile,Usage Unique CH 18,Gros Embo;;;;MUEMUE; 0;; 350,00; 462,00
+SONGAS_ELCH6//_//;Sonde Gastrique, Embout Luer, Stérile, Usage Unique CH 6;;;;MUEMUE; 0;; 500,00; 550,00
+SONGAS_ELCH8//_//;Sonde Gastrique, Embout Luer, Stérile, Usage Unique CH 8;;;;MUEMUE; 0;; 65,25; 550,00
+SONVES_DB1CH14_//;Sonde Vésicale Droite à Ballonnet, 1 voie, Stérile, U U, CH14;;;;DIMSONDE; 0;; 365,00; 481,80
+SONVES_DB2CH10_//;Sonde Vésicale Droite à Ballonnet, 2 voies, Stérile, U U, CH10;;;;MUEMUE; 119;; 400,00;1 137,84
+SONVES_DB2CH14_//;Sonde Vésicale Droite à Ballonnet, 2 voies, Stérile, U U, CH14;;;;MUEMUE; 90;; 278,00; 481,80
+SONVES_DB2CH16_//;Sonde Vésicale Droite à Ballonnet, 2 voies, Stérile, U U, CH16;;;;MUEMUE;1 559;; 250,00; 660,00
+SONVES_DB2CH18_//;Sonde Vésicale Droite à Ballonnet, 2 voies, Stérile, U U, CH18;;;;MUEMUE;1 679;; 250,00; 660,00
+SONVES_DB2CH20_//;Sonde Vésicale Droite à Ballonnet, 2 voies, Stérile, U U, CH20;;;;MUEMUE; 0;; 250,00; 330,00
+SPAROZ_18X5///_CU;Sparadrap, à l'Oxyde de Zinc, Microperf.Non Stérile 18cm x 5m rouleau;;;;MUEMUE; 815;;2 000,00;2 640,00
+SPECUL_UUM////_//;Speculum à UU moyen;;;;MUEMUE; 476;; 250,00; 330,00
+SROZIN_245/_PO_OR;S.R.O / O.R.S + ZINC,qsp ,Kit de 2 Sachets.;1l;;;MSPMSIRO;11 429;; 350,00; 495,00
+SULFA_PYR_500/_CP;Sulfadoxine Pyrimethamine (Maloxine) /3CP;500mg/25mg;Sachet;;MIJANPALU; 793;; 225,00; 400,00
+SURGEAON_CAP_DISPO;SURGEON CAP DISPOSABLE;;;;MLAMLA; 0;; 0,00; 135,00
+TAFURO_20//_SI_IV;Furosémide;20 mg;Injection;;MIJAMIJ; 900;; 290,70; 334,65
+TDR_SYPHILIS;TDR SYPHILIS;;;B/50;REATDR; 0;; 0,00; 300,00
+TETRAC_1%//_PM_CU;Tétracycline ophtalmique 1 % 5 g, tube;;Cutanée;;MUEMUE; 308;; 150,00; 237,60
+THERMO_DIGCELS_//;Thermomètre Digital, graduations C°;;;;MUEMUE; 973;; 850,00;1 122,00
+THERMO_MEDCELS_//;Thermomètre Médical, graduations C°;;;;MUEMUE;2 154;; 450,00; 594,00
+THIOPE_1000_SI_IV;Thiopental sodique 1 g;;Injection;;MIJANEST; 36;;2 000,00;2 640,00
+TRAMAD_100I_SI_IV;Tramadol;100 mg;Injection;;MIJAMIJ;9 304;; 300,00; 449,19
+TROLLEY_TOWEL_DISP;Trolley towel, disposable sterile 1m;;;;EQMEQM; 0;;10 000,00;13 200,00
+TUBTRA_UU/////_//;Tubulure pour Transfusion, Luer, Usage Unique, set complet;;;;MUEMUE; 486;; 249,00; 297,00
+TULLE_GRAS_10;TULLE GRAS LOMA 10x10 /10;;;;DIMADIM; 0;; 196,20; 225,60
+VASE_COOPER_T_45G;VASELINE T/;45G;;;MUEMUE; 90;;1 720,78;1 660,00
+VITAMC_////_AM_IV;Vitamine C;;Injection;;MIJAMIJ;9 288;; 45,00; 180,05
+VITAMM_////_CP_OR;Multivitamines, sous blister;;Comprimé;;MSO;30 700;; 7,00; 9,24
+VITAMM_////_SP_10;Multivitamine 100ML;;Sirop;;MSPMSIRO;2 170;; 425,00; 580,00
+VITBCP_////_CP_OR;Vitamines B Complexe (B1 +B6 +B12), sous;;Comprimé;;MSO;188 600;; 8,50; 10,35
+VITBCP_////_SI_IV;Vitamin B complex;;Injection;;MIJAMIJ;47 120;; 50,00; 85,80
+VOGALE_////_AM_IV;Métopimazine;"10mg/ml; 1 ml";Injection;;MIJAMIJ;5 837;; 218,70; 251,51

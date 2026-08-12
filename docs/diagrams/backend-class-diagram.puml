@@ -1,0 +1,190 @@
+@startuml backend-class-diagram
+title pharma-spring-boot — JPA entity class diagram (com.officine.losto.entity)
+
+' Layout without Graphviz (built-in Smetana)
+!pragma layout smetana
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+skinparam linetype ortho
+
+package "com.officine.losto.entity" {
+
+  abstract class AbstractEntity {
+    +Long id
+  }
+
+  enum Statut {
+    NON
+    PARTIELLE
+    COMPLETE
+  }
+
+  class AppUser {
+    +String login
+    +String password
+    +String phoneNumber
+    +String name
+    +String email
+  }
+
+  class AppGroup {
+    +String name
+    +String description
+    +boolean selected
+  }
+
+  class Role {
+    +String name
+    +String description
+    +boolean selected
+  }
+
+  class Menu {
+    +String name
+    +String description
+    +boolean active
+  }
+
+  class Provider {
+    +String code
+    +String designation
+    +String address
+    +String phoneNumber
+    +String email
+  }
+
+  class Batch {
+    +String number
+    +Date expiredDate
+    +int quantity
+  }
+
+  class Form {
+    +String code
+    +String description
+  }
+
+  class DrugType {
+    +String code
+    +String description
+  }
+
+  class Category {
+    +String code
+    +String description
+  }
+
+  class Section {
+    +String code
+    +String description
+  }
+
+  class Packaging {
+    +String code
+    +String description
+  }
+
+  class Threshold {
+    +String code
+    +int level
+    +String description
+  }
+
+  class Product {
+    +String name
+    +String description
+    +String codeBar
+    +String dosage
+    +int quantity
+    +BigDecimal costPrice
+    +BigDecimal sellPrice
+    +int version
+  }
+
+  class Orders {
+    +String number
+    +Date orderDate
+    +String description
+  }
+
+  class OrdersDetails {
+    +int quantity
+    +int unitPrice
+    +int discount
+    +int totalPrice
+  }
+
+  class Sell {
+    +String number
+    +Date date
+    +String seller
+    +String client
+    +String sellType
+    +String paymentMode
+    +BigDecimal totalPrice
+    +BigDecimal amountReceived
+    +BigDecimal changeGiven
+    +String remark
+  }
+
+  class SellDetails {
+    +int quantity
+    +int discount
+    +BigDecimal price
+  }
+
+  class ReceiptDetails {
+    +int receivedQuantity
+    +int missingQuantity
+    +Date date
+    +String observation
+  }
+}
+
+AbstractEntity <|-- AppUser
+AbstractEntity <|-- AppGroup
+AbstractEntity <|-- Role
+AbstractEntity <|-- Menu
+AbstractEntity <|-- Provider
+AbstractEntity <|-- Batch
+AbstractEntity <|-- Form
+AbstractEntity <|-- DrugType
+AbstractEntity <|-- Category
+AbstractEntity <|-- Section
+AbstractEntity <|-- Packaging
+AbstractEntity <|-- Threshold
+AbstractEntity <|-- Product
+AbstractEntity <|-- Orders
+AbstractEntity <|-- OrdersDetails
+AbstractEntity <|-- Sell
+AbstractEntity <|-- SellDetails
+AbstractEntity <|-- ReceiptDetails
+
+AppUser "0..*" --> "1" AppGroup : group
+AppGroup "1" o-- "0..*" Role : roles
+Role "1" o-- "0..*" Menu : menus
+
+Batch "0..*" --> "1" Provider : provider
+
+Product "0..*" --> "1" Form : form
+Product "0..*" --> "1" DrugType : drugType
+Product "0..*" --> "1" Category : category
+Product "0..*" --> "1" Section : section
+Product "0..*" --> "0..1" Batch : batch
+Product "0..*" --> "1" Packaging : packaging
+
+Orders "0..*" --> "1" Provider : provider
+Orders "0..*" --> "1" AppUser : user
+Orders ..> Statut : statut
+
+OrdersDetails "0..*" --> "1" Orders : orders
+OrdersDetails "0..*" --> "1" Product : product
+
+Sell "1" *-- "0..*" SellDetails : lignes
+SellDetails "0..*" --> "1" Sell : sell
+SellDetails "0..*" --> "1" Product : product
+
+ReceiptDetails "0..*" --> "1" AppUser : user
+ReceiptDetails "0..*" --> "1" OrdersDetails : ordersDetails
+
+@enduml

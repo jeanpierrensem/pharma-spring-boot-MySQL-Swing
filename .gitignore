@@ -31,4 +31,15 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Cursor ###
+.cursor/
+
 target
+.DS_Store
+**/.DS_Store
+BOOT-INF/
+.metadata/
+
+# Config locale dev (identifiants MySQL)
+src/main/resources/application-dev-local.properties

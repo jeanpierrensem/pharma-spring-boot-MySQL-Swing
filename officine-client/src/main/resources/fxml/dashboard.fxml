@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.officine.client.ui.dashboard.DashboardController"
+            stylesheets="@../css/app.css"
+            styleClass="root">
+
+    <top>
+        <HBox styleClass="dashboard-header" alignment="CENTER_LEFT" spacing="16">
+            <VBox spacing="4">
+                <Label text="Tableau de bord Officine" styleClass="title"/>
+                <Label fx:id="welcomeLabel" styleClass="subtitle"/>
+            </VBox>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <Label fx:id="roleBadge" styleClass="badge"/>
+            <Button text="Déconnexion" styleClass="secondary-button" onAction="#onLogout"/>
+        </HBox>
+    </top>
+
+    <center>
+        <VBox styleClass="dashboard-content" spacing="20">
+            <HBox spacing="16">
+                <VBox styleClass="stat-card" spacing="8" HBox.hgrow="ALWAYS">
+                    <Label text="Utilisateur" styleClass="stat-title"/>
+                    <Label fx:id="usernameValue" styleClass="stat-value"/>
+                </VBox>
+                <VBox styleClass="stat-card" spacing="8" HBox.hgrow="ALWAYS">
+                    <Label text="Rôle principal" styleClass="stat-title"/>
+                    <Label fx:id="roleValue" styleClass="stat-value"/>
+                </VBox>
+                <VBox styleClass="stat-card" spacing="8" HBox.hgrow="ALWAYS">
+                    <Label text="Session" styleClass="stat-title"/>
+                    <Label fx:id="sessionValue" styleClass="stat-value" text="Active"/>
+                </VBox>
+            </HBox>
+
+            <VBox styleClass="stat-card" spacing="10">
+                <Label text="Accès selon rôle" styleClass="stat-title"/>
+                <Label fx:id="accessInfoLabel" wrapText="true" styleClass="subtitle"/>
+                <Button fx:id="adminAreaButton" text="Ouvrir zone admin" styleClass="primary-button" onAction="#onOpenAdminArea" visible="false" managed="false"/>
+            </VBox>
+        </VBox>
+    </center>
+</BorderPane>

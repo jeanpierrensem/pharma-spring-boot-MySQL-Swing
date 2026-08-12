@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.officine.client.ui.register.RegisterController"
+           stylesheets="@../css/app.css"
+           styleClass="root">
+
+    <VBox alignment="CENTER">
+        <VBox styleClass="card" spacing="16" maxWidth="460">
+            <Label text="Créer un compte" styleClass="title"/>
+            <Label text="Inscription utilisateur standard (rôle USER)" styleClass="subtitle"/>
+
+            <VBox spacing="8">
+                <Label text="Login" styleClass="field-label"/>
+                <TextField fx:id="usernameField" promptText="jdupont"/>
+            </VBox>
+            <VBox spacing="8">
+                <Label text="Nom complet" styleClass="field-label"/>
+                <TextField fx:id="nameField" promptText="Jean Dupont"/>
+            </VBox>
+            <VBox spacing="8">
+                <Label text="Email" styleClass="field-label"/>
+                <TextField fx:id="emailField" promptText="jean@example.com"/>
+            </VBox>
+            <VBox spacing="8">
+                <Label text="Mot de passe" styleClass="field-label"/>
+                <PasswordField fx:id="passwordField" promptText="Secret123!"/>
+            </VBox>
+
+            <Label fx:id="errorLabel" styleClass="error-label" visible="false" managed="false"/>
+
+            <HBox spacing="12">
+                <Button text="S'inscrire" styleClass="primary-button" onAction="#onRegister" defaultButton="true"/>
+                <Button text="Retour" styleClass="secondary-button" onAction="#onBackToLogin"/>
+                <ProgressIndicator fx:id="loadingIndicator" visible="false" managed="false" prefWidth="24" prefHeight="24"/>
+            </HBox>
+        </VBox>
+    </VBox>
+</StackPane>
