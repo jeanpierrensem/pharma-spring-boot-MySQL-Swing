@@ -39,6 +39,7 @@ target
 .DS_Store
 **/.DS_Store
 BOOT-INF/
+officine-client/
 .metadata/
 
 # Config locale dev (identifiants MySQL)
