@@ -78,34 +78,6 @@ public class UserServiceImpl implements UserService {
         return userRepo.findByNameContainingOrLoginContainingOrEmailContaining(name, login, email);
     }
 
-    /**
-     * This method return the user object from Database, useful for the authentification
-     *
-     * @param username
-     * @param password
-     * @return
-     */
-    /*@Override
-    public AppUser Authenticate(String username, String password) {
-        return userRepo.findByNameAndPassword(username, password);
-    }*/
-
-    /**
-     * this method help to crosscheck the match between input password
-     * in first field and the password in second field
-     *
-     * @param input
-     * @param correctPassword
-     * @return
-     */
-    public boolean isPasswordCorrect(String input, String correctPassword) {
-        if (input.length() != correctPassword.length()) return false;
-        int i = 0;
-        while (i < input.length()
-                && input.charAt(i) == correctPassword.charAt(i)) i++;
-        return i >= input.length();
-    }
-
     @Override
     public List<AppUser> findAllByIdsInOrder(List<Long> ids) {
         if (ids == null || ids.isEmpty()) {

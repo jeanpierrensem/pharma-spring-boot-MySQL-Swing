@@ -1,49 +1,43 @@
 package com.officine.losto.security;
 
-import java.time.Instant;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
+import com.github.benmanes.caffeine.cache.Cache;
+import com.github.benmanes.caffeine.cache.Caffeine;
+import java.time.Duration;
+import java.util.concurrent.atomic.AtomicInteger;
 import org.springframework.stereotype.Component;
 
+/**
+ * Limite le nombre de tentatives de connexion échouées par couple
+ * {@code login|IP} sur une fenêtre glissante.
+ *
+ * <p>Basé sur un cache Caffeine à expiration automatique
+ * ({@code expireAfterWrite}) plutôt qu'une simple map : les entrées sont
+ * évincées d'elles-mêmes {@link #WINDOW} après la première tentative
+ * échouée, sans purge manuelle ni tâche planifiée à maintenir, et la taille
+ * de la map ne peut donc pas croître indéfiniment.
+ */
 @Component
 public class LoginRateLimiter {
 
 	private static final int MAX_ATTEMPTS = 2;
-	private static final long WINDOW_SECONDS = 300;
+	private static final Duration WINDOW = Duration.ofSeconds(300);
 
-	private final Map<String, AttemptWindow> attempts = new ConcurrentHashMap<>();
+	private final Cache<String, AtomicInteger> attempts = Caffeine.newBuilder()
+			.expireAfterWrite(WINDOW)
+			.build();
 
 	public boolean isBlocked(String key) {
-		AttemptWindow window = attempts.get(key);
-		if (window == null) {
-			return false;
-		}
-		window.refreshIfExpired();
-		return window.count >= MAX_ATTEMPTS;
+		AtomicInteger count = attempts.getIfPresent(key);
+		return count != null && count.get() >= MAX_ATTEMPTS;
 	}
 
 	public void recordFailure(String key) {
-		attempts.compute(key, (k, existing) -> {
-			AttemptWindow window = existing == null ? new AttemptWindow() : existing;
-			window.refreshIfExpired();
-			window.count++;
-			return window;
-		});
+		attempts.asMap()
+				.computeIfAbsent(key, k -> new AtomicInteger())
+				.incrementAndGet();
 	}
 
 	public void reset(String key) {
-		attempts.remove(key);
-	}
-
-	private static final class AttemptWindow {
-		private int count;
-		private Instant windowStart = Instant.now();
-
-		void refreshIfExpired() {
-			if (Instant.now().isAfter(windowStart.plusSeconds(WINDOW_SECONDS))) {
-				count = 0;
-				windowStart = Instant.now();
-			}
-		}
+		attempts.invalidate(key);
 	}
 }
