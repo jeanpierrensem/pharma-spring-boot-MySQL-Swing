@@ -30,6 +30,9 @@ import com.officine.losto.s5.reappro.dto.BonCommandeInterneResponseDto;
 import com.officine.losto.s5.reappro.dto.LigneBonCommandeInterneRequestDto;
 import com.officine.losto.s5.reappro.dto.LigneBonCommandeInterneResponseDto;
 import com.officine.losto.s5.reappro.service.BonCommandeInterneServiceImpl;
+import com.officine.losto.s5.reappro.service.BonSuggestLinesService;
+import com.officine.losto.security.JwtAuthenticationFilter;
+import com.officine.losto.security.menu.MenuPermissionFilter;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -61,7 +64,21 @@ class BonCommandeInterneControllerWebMvcTest {
 	private BonCommandeInterneServiceImpl bonService;
 
 	@MockitoBean
+	private BonSuggestLinesService bonSuggestLinesService;
+
+	@MockitoBean
 	private DtoMapper dtoMapper;
+
+	// @WebMvcTest instancie tous les beans Filter du contexte (pas seulement le
+	// controller ciblé) : JwtAuthenticationFilter/MenuPermissionFilter seraient
+	// sinon construits pour de vrai et échoueraient faute de JwtService/
+	// MenuPermissionService (non chargés dans cette slice). addFilters = false
+	// désactive déjà leur exécution ; ces mocks évitent juste leur instanciation.
+	@MockitoBean
+	private JwtAuthenticationFilter jwtAuthenticationFilter;
+
+	@MockitoBean
+	private MenuPermissionFilter menuPermissionFilter;
 
 	@Test
 	void getAll_returnsEmptyJsonArray() throws Exception {

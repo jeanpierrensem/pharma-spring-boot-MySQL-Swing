@@ -32,8 +32,7 @@ class UserRepoTest {
 				.build();
 		entityManager.persistAndFlush(user);
 
-		AppUser found = userRepo.findByNameAndPassword("Alice", "pwd123");
-
+		AppUser found = userRepo.findByName("Alice");
 		assertThat(found).isNotNull();
 		assertThat(found.getLogin()).isEqualTo("alice-login");
 	}

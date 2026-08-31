@@ -77,10 +77,10 @@
 			<version>0.12.6</version>
 			<scope>runtime</scope>
 		</dependency>
-		<!-- Cache auto-expirant utilisé par LoginRateLimiter (version gérée par spring-boot-starter-parent) -->
+		<!-- Client Redis (Lettuce) pour l'état partagé de LoginRateLimiter entre instances -->
 		<dependency>
-			<groupId>com.github.ben-manes.caffeine</groupId>
-			<artifactId>caffeine</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
 		</dependency>
 		<!-- Dependency added for content negociation : when the consumer and
 		the provider of the API

@@ -8,6 +8,8 @@ import com.officine.losto.s1.organisation.dto.SiteRequestDto;
 import com.officine.losto.s1.organisation.dto.SiteResponseDto;
 import com.officine.losto.s1.organisation.mapper.OrganisationMapper;
 import com.officine.losto.s1.organisation.service.SiteService;
+import com.officine.losto.security.JwtAuthenticationFilter;
+import com.officine.losto.security.menu.MenuPermissionFilter;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -46,6 +48,17 @@ class SiteControllerWebMvcTest {
 
 	@MockitoBean
 	private OrganisationMapper organisationMapper;
+
+	// @WebMvcTest instancie tous les beans Filter du contexte (pas seulement le
+	// controller ciblé) : JwtAuthenticationFilter/MenuPermissionFilter seraient
+	// sinon construits pour de vrai et échoueraient faute de JwtService/
+	// MenuPermissionService (non chargés dans cette slice). addFilters = false
+	// désactive déjà leur exécution ; ces mocks évitent juste leur instanciation.
+	@MockitoBean
+	private JwtAuthenticationFilter jwtAuthenticationFilter;
+
+	@MockitoBean
+	private MenuPermissionFilter menuPermissionFilter;
 
 	@Test
 	void getAll_returnsJsonList() throws Exception {
