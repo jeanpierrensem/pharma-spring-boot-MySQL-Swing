@@ -32,8 +32,6 @@ pipeline {
             }
         }
 
-        }
-
         stage('Test') {
             steps {
                 sh 'mvn -B -ntp test'
