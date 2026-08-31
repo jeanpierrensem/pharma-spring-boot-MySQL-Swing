@@ -31,6 +31,10 @@ pipeline {
                 sh 'mvn -B -ntp clean compile'
             }
         }
+        options{
+        timeout (time : 60, unit : 'SECOND')
+
+        }
 
         stage('Test') {
             steps {
