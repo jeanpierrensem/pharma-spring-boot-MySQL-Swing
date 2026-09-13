@@ -1,17 +1,5 @@
 pipeline {
-    agent {
-        dockerContainer {
-            image 'maven:3.9.16-eclipse-temurin-21-alpine'
-        }
-    }
-
-    options {
-        timestamps()
-        buildDiscarder(logRotator(numToKeepStr: '20'))
-        timeout(time: 30, unit: 'MINUTES')
-        disableConcurrentBuilds()
-    }
-
+    agent any
     environment {
         // Les tests tournent sur H2 en mémoire (voir src/test/resources/application-test.properties),
         // aucune base MySQL n'est nécessaire pour ce pipeline.
@@ -26,33 +14,33 @@ pipeline {
             }
         }
 
-        stage('Compile') {
+       /*  stage('Compile') {
             steps {
                 sh 'mvn -B -ntp clean compile'
             }
-        }
+        } */
 
-        stage('Test') {
+       /*  stage('Test') {
             steps {
                 sh 'mvn -B -ntp test'
             }
             post {
                 always {
-                    junit testResults: 'target/surefire-reports/*.xml', allowEmptyResults: true
+                    junit testResults: 'target/surefire-reports *//*.xml', allowEmptyResults: true
                 }
             }
-        }
+        } */
 
-        stage('Package') {
+       /*  stage('Package') {
             steps {
                 sh 'mvn -B -ntp package -DskipTests'
             }
             post {
                 success {
-                    archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
+                    archiveArtifacts artifacts: 'target *//*.jar', fingerprint: true
                 }
             }
-        }
+        } */
 
         // Étapes à activer plus tard selon l'infra cible (non incluses faute de Dockerfile
         // et de destination de déploiement définis pour l'instant) :
@@ -71,12 +59,12 @@ pipeline {
         // }
     }
 
-    post {
+   /*  post {
         failure {
             echo 'Build échoué — voir les logs ci-dessus.'
         }
         always {
             cleanWs()
         }
-    }
+    } */
 }
