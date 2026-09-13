@@ -8,11 +8,11 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
+        /*stage('Checkout') {
             steps {
                 checkout scm
             }
-        }
+        }*/
 
          stage('Compile') {
             steps {
@@ -20,7 +20,7 @@ pipeline {
             }
         }
 
-       /*  stage('Test') {
+        stage('Test') {
             steps {
                 sh 'mvn -B -ntp test'
             }
@@ -29,7 +29,7 @@ pipeline {
                     junit testResults: 'target/surefire-reports *//*.xml', allowEmptyResults: true
                 }
             }
-        } */
+        }
 
        /*  stage('Package') {
             steps {
