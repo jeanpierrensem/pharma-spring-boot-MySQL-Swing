@@ -8,17 +8,17 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
+        /*stage('Checkout') {
             steps {
                 checkout scm
             }
-        }
+        }*/
 
-       /*  stage('Compile') {
+         stage('Compile') {
             steps {
                 sh 'mvn -B -ntp clean compile'
             }
-        } */
+        }
 
        /*  stage('Test') {
             steps {
