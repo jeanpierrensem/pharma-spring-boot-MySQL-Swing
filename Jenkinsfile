@@ -31,7 +31,7 @@ pipeline {
             }
         }
 
-       /*  stage('Package') {
+         stage('Package') {
             steps {
                 sh 'mvn -B -ntp package -DskipTests'
             }
@@ -40,7 +40,7 @@ pipeline {
                     archiveArtifacts artifacts: 'target *//*.jar', fingerprint: true
                 }
             }
-        } */
+        }
 
         // Étapes à activer plus tard selon l'infra cible (non incluses faute de Dockerfile
         // et de destination de déploiement définis pour l'instant) :
